@@ -4,23 +4,23 @@
 class Hi < Formula
   desc "HIPS's command-line tool: sign in, list models, start coding agents on HIPS"
   homepage "https://hips.com"
-  version "0.1.11"
+  version "0.1.12"
 
   on_macos do
     on_arm do
-      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.11/hi-0.1.11-macos-arm64"
-      sha256 "c5abb533df9ba79fb6dc885b14505489bc03f44c4273abd7b6d0e71c19771446"
+      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.12/hi-0.1.12-macos-arm64"
+      sha256 "82d85280b4ce45756f2075e52f3adf28f9575b4001b58e52db87f5ac74214c00"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.11/hi-0.1.11-linux-x64"
-      sha256 "ea27f1cc9495908d7035ceb13440275442b974404b04de416a749a9260aad1dc"
+      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.12/hi-0.1.12-linux-x64"
+      sha256 "04c44ffedb16ed793a88ecd1e14145676f5fae7a4ca195c18654cca2a529e673"
     end
     on_arm do
-      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.11/hi-0.1.11-linux-arm64"
-      sha256 "2a7031072e6160a0a526ccd570f2ba537bdca5d1fc7f350a985596142ae43b25"
+      url "https://github.com/hips-ai/hi-releases/releases/download/v0.1.12/hi-0.1.12-linux-arm64"
+      sha256 "4ffe01a8d4419354228174a1e03af5fa5ffadfdba14d9f667844bec44b001ee1"
     end
   end
 
